@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ReplicationController
 metadata:
-  name: mynginx-rc
+  name: mynginxrc
 spec:
   replicas: 3
   selector:
@@ -12,7 +12,7 @@ spec:
         app: mynginx
     spec:
       containers:
-      - name: mynginx container
+      - name: mynginxcontainer
         image: nginx
         ports:
         - containerPort: 80
