@@ -4,6 +4,7 @@ metadata:
   name: maha-svc
   labels:
     app: myjavaapp
+    Version: 2.6.1s
 spec:
   type: NodePort
   ports:
@@ -12,4 +13,4 @@ spec:
     protocol: TCP
   selector:
     app: myjavaapp
-
+    Version: 2.6.1 
