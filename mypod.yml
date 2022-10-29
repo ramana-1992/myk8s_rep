@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-   name: mynginx-pod
+   name: hello-pod
 spec:
   containers:
    - name: first-container
